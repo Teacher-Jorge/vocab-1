@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Lato:wght@300&family=Open+Sans&family=Russo+One&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: 'Open Sans', sans-serif;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  line-height: 1.7;
+}
+
+.slider-container {
+  height: 100vh;
+  display: inline-flex;
+  overflow: hidden;
+  transform: translateX(0);
+  transition: transform 0.3s ease-out;
+  cursor: grab;
+}
+
+.heading {
+    margin-bottom: 30px;
+    font-family: 'bangers';
+    font-size: 2rem;
+    color: dodgerblue;
+    text-shadow: 1px 1px 2px black;
+}
+
+.slide {
+  max-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  user-select: none;
+}
+
+.slide img {
+  max-width: 60%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.images {
+    width: 300px;
+}
+
+.buttons {
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    border-style: none;
+    border-radius: 15px;
+    font-family: 'bangers';
+    font-size: 1.5rem;
+    box-shadow: 1px 1px 2px black;
+}
+
+.next {
+    margin-left: 300px;
+    width: 100px;
+    visibility: hidden;
+}
+
+.slide h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.slide h4 {
+  font-size: 1.3rem;
+}
+
+.btn {
+  background-color: #444;
+  color: #fff;
+  text-decoration: none;
+  padding: 1rem 1.5rem;
+}
+
+.grabbing {
+  cursor: grabbing;
+}
+
+.grabbing .slide img {
+  transform: scale(0.9);
+}
+
+
