@@ -5,40 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Slider</title>
+    <title>Vocabulary</title>
 </head>
 <body>
-    <audio id="audio1" src="assets/apple.wav"></audio>
-    <audio id="audio2" src="assets/pop.wav"></audio>
+    <audio id="audioPop" src="assets/pop.wav"></audio>
+    <audio id="audioApple" src="assets/apple.wav"></audio>
+    <audio id="audioPineapple" src="assets/pineapple.wav"></audio>
+    <audio id="audioBanana" src="assets/banana.wav"></audio>
+    <audio id="audioAvocado" src="assets/avocado.wav"></audio>
+    <audio id="audioPear" src="assets/pear.wav"></audio>
+    <div class="heading-container">
+      <h3 class="heading">Choose the right word</h3>
+  </div>
     <div class="slider-container">
         <div class="slide">
-            <div class="heading-container">
-                <h3 class="heading">Choose the right word</h3>
-                
-             </div>
+           
+            <!--Slide 01-->
           <img class="images" src="assets/apple.jpeg" alt="" />
-          <button id="btnAple" class="buttons-container">
+          <button class="buttons-container">
             <button id="btnBanana" class="buttons">Banana</button>
             <button id="btnApple" class="buttons">Apple</button>
             <button id="btnPineapple" class="buttons">Pineapple</button>
             <img id="next1" class="next" src="assets/next.png" alt="">
           </button>
-         
-         
         </div>
-        <div class="slide">
-          <h2>iPhone 12</h2>
-          <h4>$799</h4>
-          <img src="image2.png" alt="" />
-          <a href="#" class="btn">Buy Now</a>
-        </div>
-        <div class="slide">
-          <h2>iPad</h2>
-          <h4>$599</h4>
-          <img src="image3" alt="" />
-          <a href="#" class="btn">Buy Now</a>
-        </div>
+        <!--Slide 02-->
+      <div class="slide"> 
+        <img class="images" src="assets/pineapple.jpeg" alt="" />
+        <button class="buttons-container">
+          <button id="btn2Banana" class="buttons">Banana</button>
+          <button id="btn2Avocado" class="buttons">Avocado</button>
+          <button id="btn2Pineapple" class="buttons">Pineapple</button>
+          <img id="next2" class="next" src="assets/next.png" alt="">
+        </button>
       </div>
+          <!--Slide 03-->
+          <div class="slide"> 
+            <img class="images" src="assets/banana.jpeg" alt="" />
+            <button class="buttons-container">
+              <button id="btn3Banana" class="buttons">Banana</button>
+              <button id="btn3Avocado" class="buttons">Avocado</button>
+              <button id="btn3Pear" class="buttons">Pear</button>
+              <img id="next3" class="next" src="assets/next.png" alt="">
+            </button>
+          </div>
+          <!--Slide 04-->
+          <div class="slide"> 
+              <img class="images" src="assets/avocado.jpeg" alt="" />
+              <button class="buttons-container">
+              <button id="btn4Pear" class="buttons">Pear</button>
+              <button id="btn4Avocado" class="buttons">Avocado</button>
+              <button id="btn4Grape" class="buttons">Grape</button>
+              <img id="next4" class="next" src="assets/next.png" alt="">
+              </button>
+          </div>
+          <!--Slide 05-->
+          <div class="slide"> 
+              <img class="images" src="assets/pear.jpeg" alt="" />
+              <button class="buttons-container">
+              <button id="btn5Pear" class="buttons">Pear</button>
+              <button id="btn5Strawberry" class="buttons">Strawnerry</button>
+              <button id="btn5Grape" class="buttons">Grape</button>
+              <img id="next5" class="back" src="assets/back.png" alt="">
+              </button>
+          </div>
+         
+       
+          
+     
 
 
     <script src="script.js"></script>
