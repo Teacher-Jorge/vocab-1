@@ -60,6 +60,9 @@ body {
     border-style: none;
     border-radius: 15px;
     font-family: 'bangers';
+    background-color: aliceblue;
+    color:dodgerblue;
+    text-shadow: 1px 1px 2px black;
     font-size: 1.5rem;
     box-shadow: 1px 1px 2px black;
 }

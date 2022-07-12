@@ -96,7 +96,7 @@ btnApple.addEventListener('click', function() {
     let audioApple = document.getElementById('audioApple')
     audioApple.play()
     document.getElementById('btnApple').setAttribute("style", "box-shadow: 0 0 0")
-    btnApple.style.backgroundColor = 'lime'
+    btnApple.style.backgroundColor = 'chartreuse'
     next1.style.visibility = 'visible'
     btnBanana.disabled = 'true'
     btnPineapple.disabled = 'true'
@@ -127,8 +127,8 @@ let next2 = document.getElementById('next2')
 btn2Pineapple.addEventListener('click', function() {
     let audioPineapple = document.getElementById('audioPineapple')
     audioPineapple.play()
-    document.getElementById('btnApple').setAttribute("style", "box-shadow: 0 0 0")
-    btn2Pineapple.style.backgroundColor = 'lime'
+    document.getElementById('btn2Pineapple').setAttribute("style", "box-shadow: 0 0 0")
+    btn2Pineapple.style.backgroundColor = 'chartreuse'
     next2.style.visibility = 'visible'
     btn2Avocado.disabled = 'true'
     btn2Banana.disabled = 'true'
@@ -161,7 +161,7 @@ btn3Banana.addEventListener('click', function() {
     let audioBanana = document.getElementById('audioBanana')
     audioBanana.play()
     document.getElementById('btn3Banana').setAttribute("style", "box-shadow: 0 0 0")
-    btn3Banana.style.backgroundColor = 'lime'
+    btn3Banana.style.backgroundColor = 'chartreuse'
     next3.style.visibility = 'visible'
     btn3Avocado.disabled = 'true'
     btn3Pear.disabled = 'true'
@@ -170,7 +170,7 @@ btn3Banana.addEventListener('click', function() {
 btn3Avocado.addEventListener('click', function() {
     let audioPop = document.getElementById('audioPop')
     audioPop.play()
-    document.getElementById('btn2Banana').setAttribute("style", "box-shadow: 0 0 0")
+    document.getElementById('btn3Avocado').setAttribute("style", "box-shadow: 0 0 0")
     btn3Avocado.style.backgroundColor = 'red'
     btn3Avocado.disabled = 'true'
     
@@ -179,7 +179,7 @@ btn3Avocado.addEventListener('click', function() {
 btn3Pear.addEventListener('click', function() {
     let audioPop = document.getElementById('audioPop')
     audioPop.play()
-    document.getElementById('btn2Avocado').setAttribute("style", "box-shadow: 0 0 0")
+    document.getElementById('btn3Pear').setAttribute("style", "box-shadow: 0 0 0")
     btn3Pear.style.backgroundColor = 'red'
     btn3Pear.disabled = 'true'
 })
@@ -194,7 +194,7 @@ btn4Avocado.addEventListener('click', function() {
     let audioAvocado = document.getElementById('audioAvocado')
     audioAvocado.play()
     document.getElementById('btn4Avocado').setAttribute("style", "box-shadow: 0 0 0")
-    btn4Avocado.style.backgroundColor = 'lime'
+    btn4Avocado.style.backgroundColor = 'chartreuse'
     next4.style.visibility = 'visible'
     btn4Pear.disabled = 'true'
     btn4Grape.disabled = 'true'
@@ -227,7 +227,7 @@ btn5Pear.addEventListener('click', function() {
     let audioPear = document.getElementById('audioPear')
     audioPear.play()
     document.getElementById('btn5Pear').setAttribute("style", "box-shadow: 0 0 0")
-    btn5Pear.style.backgroundColor = 'lime'
+    btn5Pear.style.backgroundColor = 'chartreuse'
     next5.style.visibility = 'visible'
     btn5Strawberry.disabled = 'true'
     btn5Grape.disabled = 'true'
